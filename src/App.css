@@ -13,10 +13,6 @@
 
 
 
-aside {
-  background-color: rgb(97, 81, 57);
-  grid-area: LadoEsquerdo;
-}
 
 
 main {
@@ -25,7 +21,3 @@ main {
 }
 
 
-footer {
-  background-color: rgb(63, 58, 11);
-  grid-area: rodape;
-}

@@ -1,5 +1,7 @@
 import'./App.css';
 import Cabecalho from './assets/componentes/Cabecalho/Cabecalho';
+import LadoEsquerdo from './assets/componentes/LadoEsquerdo/LadoEsquerdo';
+import Rodape from './assets/componentes/Rodape/rodape';
 
 function App() {
   console.log('app render...');
@@ -8,9 +10,9 @@ function App() {
   return (
    <>
   <Cabecalho />
-  <aside></aside>
+  <LadoEsquerdo/>
   <main></main>
-  <footer></footer>
+  <Rodape/>
   
   </>
 );
