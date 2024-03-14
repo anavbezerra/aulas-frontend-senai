@@ -1,0 +1,31 @@
+#root {
+  display: grid;
+  grid-template-areas: 
+  'cabecalho cabecalho'
+  'LadoEsquerdo principal'
+  'rodape rodape';
+
+  grid-template-rows: 64px 1fr 88px;
+  grid-template-columns: 288px 1fr;
+}
+
+
+
+
+
+aside {
+  background-color: rgb(97, 81, 57);
+  grid-area: LadoEsquerdo;
+}
+
+
+main {
+  background-color: rgb(68, 47, 8);
+  grid-area: principal;
+}
+
+
+footer {
+  background-color: rgb(63, 58, 11);
+  grid-area: rodape;
+}
