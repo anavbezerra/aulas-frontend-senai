@@ -1,21 +1,21 @@
-import'./App.css';
-import Cabecalho from './assets/componentes/Cabecalho/Cabecalho';
-import LadoEsquerdo from './assets/componentes/LadoEsquerdo/LadoEsquerdo';
-import Rodape from './assets/componentes/Rodape/rodape';
+import './App.css';
+import Cabecalho from './componentes/Cabecalho/Cabecalho';
+import LadoEsquerdo from './componentes/LadoEsquerdo/LadoEsquerdo';
+import Principal from './componentes/Principal/Principal';
+import Rodape from './componentes/Rodape/Rodape';
 
 function App() {
-  console.log('app render...');
- 
+  console.log('App render...');
 
   return (
-   <>
-  <Cabecalho />
-  <LadoEsquerdo/>
-  <main></main>
-  <Rodape/>
-  
-  </>
-);
+    <>
+      <Cabecalho />
+      <LadoEsquerdo />
+      <Principal />
+      <Rodape />
+    </>
+  );
 }
 
-export default App
+export default App;
+
